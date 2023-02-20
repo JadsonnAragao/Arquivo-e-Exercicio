@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <time.h>
 #include <stdio.h>
-#include <string.h>
+#include <string.h>// Com base em Deitel e Paul um arquivo-lista de exercícios
 
 struct Exercise{
     
