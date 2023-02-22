@@ -182,7 +182,7 @@ void updateExer(FILE *fPtr)
 {
 	   
 	   int j;
-	  int exe;
+	  int exe = 1;
 	   int i;	   
 	   char string1[20];
 	   char string2[15];
@@ -202,8 +202,7 @@ if( activy.sum == 0)
 		}
 		else
 		{
-		 	 printf("Quantos exercicios:");
-		 	 scanf("%d",&exe);
+		 	 
 		 	   fseek(fPtr, ((unsigned long)strlen(activy.lastName) + strcspn( string1, activy.lastName ) ) * sizeof(struct Exercise), SEEK_SET);
          
 	fread(&activy, sizeof(struct Exercise),1,fPtr);
