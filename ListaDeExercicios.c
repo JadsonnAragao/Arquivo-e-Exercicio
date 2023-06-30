@@ -335,7 +335,7 @@ activy.sum = activy.retry * activy.series;
            
            									
            printf("*%s*\n",activy.exerciseVariety);																											
-			printf("\n%s: %s %s\n%s: %d\n%s: %d\n%s: %d\n","Nome",activy.lastName,activy.firstName,"Series",activy.seriesVar ,"Repetições",activy.retryVar,"Soma",activy.sum + activy.sum);		
+			printf("\n%s: %s %s\n%s: %d\n%s: %d\n%s: %d\n","Nome",activy.lastName,activy.firstName,"Series",activy.seriesVar ,"Repetições",activy.retryVar,"Soma",activy.sum);		
 
 		 	
 	 }	 		
