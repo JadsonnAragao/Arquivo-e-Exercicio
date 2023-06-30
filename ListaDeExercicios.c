@@ -291,8 +291,8 @@ if( (int)strlen(activy.lastName)  == 0)
 		 	   fread(&activy, sizeof(struct Exercise),1,fPtr);	
       
 		 		
-		 	
-		 	for(i = 0; i <= activy.exer; i++)
+		 	int h = activy.exer;
+		 	for(i = 0; i < h; i++)
 		 	{		 	
 	   	  
 	   	  memcpy( activy.lastName, string1, 15);
@@ -326,7 +326,7 @@ activy.sum = activy.retry * activy.series;
 		 		printf("\n");
 		 		}
 		 	}
-		for(i = 0; i <= activy.exer ; i++)
+		for(i = 0; i < h; i++)
 		{
 		 		memcpy( activy.lastName, string1, 15);
 	   	  memcpy( activy.firstName, string2, 15);
